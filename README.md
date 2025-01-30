@@ -149,21 +149,27 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
 <img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/VdZS3U.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/ig4lJu.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+  We just simply have to import it and it will be imported into our Playbook or story, so that's very helpful. There's also tools, a page, group, and Notes. If you want to head over to the dashboard, we can click on the Tines icon on the top left corner, so let's go ahead and click on that.
 <br />
 <br />
-  We just simply have to import it and it will be imported into our Playbook or story, so that's very helpful. There's also tools, a page group, and Notes. If you want to head over to the dashboard, we can click on the Tines icon on the top left corner, so let's go ahead and click on that.
+<img src="https://snipboard.io/NhOV8S.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/7vA1ju.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/193nCO.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -171,7 +177,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   What I'm going to do is click on my name and select dark mode because this is just a lot easier for me on my eyes. Now that I changed it to dark mode, let's go back to our story. What we need to do is establish the link between LimaCharlie and Tines so that way we can know that Tines is retrieving the detection.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/fYjocl.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/Uv63hS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/KpWd4U.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -179,7 +191,10 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   So how do we do that? Let's go ahead and click on the simple weather app and I'll go ahead and delete that. For the send email, I'll just delete that as well. So basically start from scratch, and what I'll be using is a webhook. So let's go ahead and grab that.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/vTNxh0.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/Wn31IY.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -187,7 +202,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   I'll name the webhook action "Retrieve Detections". For the description, I'll just say "Retrieves LimaCharlie Detections". For the webhook URL, I'll go ahead and just copy that. Now let's head over to LimaCharlie. So I'll select my organization and where we want to go is "Outputs".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/rBvRd5.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/9ahLvx.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/UwusFv.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -195,7 +216,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   I'll click on "Add Output" and we got a couple of options here. We have "Events", "Detections", "Deployments", "Auto Logs", "Artifacts", and "Tailored". What we're interested in the most is "Detections", this is a stream of detections reported by the rule engine. That's what we want, so I'll click on "Select".
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/anifGy.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/0lidrH.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/l7K4xm.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -203,7 +230,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   Now we have our "Destination". So we have "Amazon S3", "Apache", "Azure", "Data Dog", and "Elastic". So I'll go ahead and select "Tines". Now let's say we didn't have Tines, we can also just select Webhook as well. Since we do have an application for Tines, let's just select that.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/YehH7D.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/m45ydx.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/nX8OVJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -211,7 +244,10 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   For the name, let's put in "MyDFIR-SOAR-EDR". For the destination host, let's paste it into the web hook. Then, click "Save Output". Now we got our configuration saved, but we couldn't detect any recent samples moving through this output. I'll hit refresh, refresh again and there's still nothing.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/1QT6qI.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/ba6Dtn.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -219,7 +255,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   So what that means is that we just need to regenerate our event. So over on our server, I'll type ".\LaZagne.exe" and hit enter. This should in theory generate our detection. So I'll click on refresh and here we go.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/L35T9Y.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/n7U0lB.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/m9WkHi.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -227,19 +269,26 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   We have our "MyDFIR - HackTool - LaZagne", and the rest of this looks pretty good. Let's head over to our Tines and our "Retrieve Detections" to select "Events". I'll move this up just a bit and let's take a look at our most recent detection which is the first one here.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/iRZUlr.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/vXyqc5.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/GjhnCz.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-  So I'll expand that body and look at that. That's pretty cool. Now we have our detection exactly one-to-one. So we have our title which is "MyDFIR - HackTool - Lazage" and if we open up the detect event, we have the command line, the file path, the hash, and the username.
+  So I'll expand that and look. That's pretty cool. Now we have our detection exactly one-to-one. So we have our title which is "MyDFIR - HackTool - Lazage" and if we open up the detect event, we have the command line, the file path, the hash, and the username.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/Nnse4C.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/GmMbQN.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-  Now we can start building our Playbook to finally perform some automation. We should now have accounts for Slack, Tines, and LimaCharlie. We can also confirm that the detection is showing up in Times. This means that we can begin creating our Playbook and perform some automation.
-  
-In the next part of our series which will be the last episode, we'll begin creating our Playbook by following the workflow that we created in part one. Do think about carving some time as it will be a longer part. That is it and thank you for reading. I hope that you're enjoying this project series. Remember to stay curious and do things differently.
+  Now we can start building our Playbook to finally perform some automation. We should now have accounts for Slack, Tines, and LimaCharlie. We can also confirm that the detection is showing up in Times. This means that we can begin creating our Playbook and perform some automation. In the next part of our series which will be the last episode, we'll begin creating our Playbook by following the workflow that we created in part one. Do think about carving some time as it will be a longer part. That is it and thank you for reading. I hope that you're enjoying this project series. Remember to stay curious and do things differently.
