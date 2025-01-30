@@ -45,7 +45,7 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
 <br />
 <br />
 <br />
-  I'll go ahead and skip this step. "What's your team working on right now?" I'll type "The best project", then click "Next". Start with free and now we're set up with Slack. There's one thing I want to do though, its to add a new channel.
+  I'll go ahead and skip this step. "What's your team working on right now?" I'll type "The best project", then click "Next". Start with free and now we're set up with Slack. There's one thing I want to do though, it's to add a new channel.
 <br />
 <br />
 <img src="https://snipboard.io/eSRfL6.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -59,18 +59,27 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
 <br />
 <br />
 <br />
-  So I'll click "Add Channels", then "Create a new channel". I'll call this as "alerts" and I'll put this as public. I'll skip adding people, and on our left-hand side we have a new channel called "alerts".
+  So I'll click "Add Channels", then "Create a new channel". I'll call this as "alerts" and I'll put this as public. I'll skip adding people. 
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/cXUMt2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/OTrA5k.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/3qC1LQ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/z25akD.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
 <br />
-  So what this will do is when we receive a detection from LimaCharlie on Tines; Tines will then send a message over to slack. Specifically within the "alert" channel because as a SOC analyst you would probably want to have different channels and you'll want to have a dedicated channel for your alerts, so that is why we created an alerts channel.
+  Now we have a channel called "alerts". So what this will do is when we receive a detection from LimaCharlie on Tines; Tines will then send a message over to Slack. Specifically within the "alert" channel because as a SOC analyst, you would probably want to have different channels and you'll want to have a dedicated channel for your alerts, so that is why we created an alerts channel.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/XAqgLk.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -78,7 +87,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   So now let's head over to Tines.com and click on "Sign up now" from the signup. You can sign up with Google or Microsoft, but just like Slack do make sure you have a valid email account because they will send you a confirmation email. Once you sign in, you'll see the screen right here.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/wk2Bnu.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/j8NwWl.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/v8jsTS.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -86,7 +101,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   Now we can go ahead and begin with an example, but I'll go ahead and select the "X" to exit out. I'll click on "End Tour". If we take a look on the left-hand side, these are some of the actions that we can use to build our story, AKA Playbook. So for example, we can use a webhook and we can use an HTTP request.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/UXfLhJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/SHkIzJ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/JmKUQu.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -94,7 +115,13 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   All we need to do is just drag it into the storyboard. I'll delete everything, except email and weather. There's also some templates so we can click on "Templates", and these are just pre-built templates to use. So for example, we have VirusTotal.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/7xjkiF.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/AOQ0TZ.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/RYy19k.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -102,7 +129,16 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   We have some options here. We can search up "hash" and click on "Get File Behaviour in VirusTotal". So if I click on that, there's a value entry for the file hash, but we don't need this right now. I'll go ahead and delete that.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/6vaD1I.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/9gCYt1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/LT45KE.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/D8uYtr.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
@@ -110,7 +146,16 @@ Welcome to part four of five for the series on the SOAR EDR project. If you have
   So there are file hashes and also story libraries, so if you want to start with a template, we can do that as well. For example, if we wanted to add a domain to a block list in Zscaler, we can go ahead and click on that. Here's our pre-built story.
 <br />
 <br />
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://snipboard.io/esgpPC.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
